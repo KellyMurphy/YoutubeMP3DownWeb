@@ -1,4 +1,5 @@
 node_modules
 bower_components
 Download/*.mp3
-ffmpeg
+ffmpeg/*
+!ffmpeg/readme.md
