@@ -1,0 +1,30 @@
+doctype html
+html(lang="en")
+  head
+    block styles
+      script(src="/bc/jquery/dist/jquery.js")
+      script(src="/bc/jquery-ui/jquery-ui.min.js")
+      script(src="/bc/tether/dist/js/tether.js")
+      link(rel="stylesheet", href="bc/bootstrap/dist/css/bootstrap.css")
+      link(rel="stylesheet", href="bc/bootstrap/dist/css/bootstrap-theme.css")
+      script(srr="/bc/bootstrap/dist/js/bootstrap.js")
+      link(rel="stylesheet", href="/bc/font-awesome/css/font-awesome.css")
+      script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js")
+      link(rel="stylesheet", href="site.css")
+      script(src="/socket.io/socket.io.js")
+      script(src="socketscript.js")
+      link(rel="stylesheet", href="/bc/jquery-ui/themes/base/jquery-ui.css")
+      link(rel="stylesheet", href="/bc/jquery-ui/themes/cupertino/jquery-ui.css")
+    block title
+      title Youtube MP3 Downloader
+  body
+    block fullbody
+      div.container-fluid
+        i.icon-search
+        div.container
+          div.jumbotron
+            h1 YouTube => MP3 Downloader
+            h2 Turn your favorate videos into podcasts.
+            h3 Audio you can listen to while on the go...
+          div.col-md-5
+            block content

@@ -1,0 +1,11 @@
+extends base.pug
+
+
+block content
+  form
+    label Enter URL to download:
+    input(id="url", placeholder="Video Link")
+    button(id="wsdl").btn-info Go
+  if VideoTitle
+    a(href= link download) Download #{VideoTitle}
+  div(id="progresses")

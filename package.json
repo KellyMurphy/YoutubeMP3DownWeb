@@ -1,0 +1,39 @@
+{
+  "name": "YouTubeMP3DownWeb",
+  "version": "1.0.0",
+  "description": "Download From youtube as MP3",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kellym",
+  "license": "ISC",
+  "dependencies": {
+    "angularjs": "0.0.1",
+    "bootstrap": "^3.3.7",
+    "chartjs": "^0.3.24",
+    "express": "^4.16.2",
+    "fullcalendar": "^3.8.2",
+    "minimatch": "^3.0.4",
+    "progressbar.js": "^1.0.1",
+    "pug": "^2.0.0-rc.4",
+    "socketio": "^1.0.0",
+    "youtube-mp3-downloader": "^0.5.3",
+    "ytdl-core": "^0.20.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-bower": "0.0.13",
+    "gulp-bower-files": "^0.2.7",
+    "gulp-copy": "0.0.2",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-pipeline": "^4.0.43",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2",
+    "path": "^0.12.7",
+    "querystring": "^0.2.0"
+  }
+}
