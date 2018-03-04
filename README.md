@@ -11,4 +11,6 @@ To install:
 ## Running
 Run `npm index.js` from the install folder.
 
-Browse to http://localhost:3000
+browse to http://localhost:3000
+
+## Not tested in linux.
