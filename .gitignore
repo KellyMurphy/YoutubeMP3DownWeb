@@ -3,3 +3,4 @@ bower_components
 Download/*.mp3
 ffmpeg/*
 !ffmpeg/readme.md
+*.lock
