@@ -13,4 +13,9 @@ Run `npm index.js` from the install folder.
 
 browse to http://localhost:3000
 
-## Not tested in linux.
+## Known Issues
+1)  Not tested in Mac/linux.
+    1) paths may need to be adjusted for: 
+        * ffmpeg
+        * downlosd folder
+
