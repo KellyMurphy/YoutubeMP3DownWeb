@@ -9,7 +9,7 @@ To install:
 * Run  `bower install` in main folder
 
 ## Running
-Run `npm index.js` from the install folder.
+Run `node index.js` from the install folder.
 
 browse to http://localhost:3000
 
